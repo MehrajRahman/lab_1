@@ -1,8 +1,16 @@
 #include <stdio.h>
 int main ()
 {
-    const float pi  = 3.14;
-    const float g_ratio = 1.62;
-    printf("The value of pi: %.2f \nThe value of golden ratio: %.2f", pi, g_ratio);
+    unsigned int a;
+    unsigned long int b;
+    unsigned long long int c;
+    unsigned short int d;
+    a = 4294967295;
+    b = 4294967295;
+    c = 18446744073709551615;
+    d = 65535;
+
+    printf("The unsigned int value: %u\nThe unsigned long int value: %lu\nThe unsigned long long int value: %llu\nThe unsigned short int value: %hu", a, b, c,d);
     return 0;
+
 }
